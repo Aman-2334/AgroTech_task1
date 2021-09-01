@@ -51,7 +51,7 @@ class _Screen2State extends State<Screen2> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Screen 2'),
-        centerTitle: true,
+      
       ),
       body: SingleChildScrollView(
         child: SafeArea(

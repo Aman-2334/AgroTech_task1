@@ -90,7 +90,7 @@ class _Screen1State extends State<Screen1> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Screen 1'),
-        centerTitle: true,
+       
       ),
       body: SafeArea(
         child: Center(

@@ -21,29 +21,8 @@ class MyApp extends StatelessWidget {
       ),
     ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          buttonColor: Colors.blue[700],
-          textTheme: TextTheme(
-            headline1: GoogleFonts.aBeeZee(
-              textStyle: TextStyle(
-                  fontSize: 30, color: Colors.amber, fontWeight: FontWeight.w600),
-            ),
-            headline2: GoogleFonts.aBeeZee(
-              textStyle: TextStyle(
-                  fontSize: 20, color: Colors.amber, fontWeight: FontWeight.w600),
-            ),
-            headline3: GoogleFonts.aBeeZee(
-              textStyle: TextStyle(
-                  fontSize: 20, color: Colors.blue, fontWeight: FontWeight.w600),
-            ),
-            bodyText1: GoogleFonts.aBeeZee(
-              textStyle: TextStyle(
-                  fontSize: 15, color: Colors.amber, fontWeight: FontWeight.w600),
-            ),
-            button: GoogleFonts.aBeeZee(
-              textStyle: TextStyle(color: Colors.amber),
-            ),
-          ),
           scaffoldBackgroundColor: Colors.black,
           appBarTheme: AppBarTheme(
             brightness: Brightness.dark,
